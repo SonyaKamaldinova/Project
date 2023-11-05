@@ -1,0 +1,5 @@
+train: ../train/images
+val: ../valid/images
+
+nc: 16
+names: ['angel','apple', 'book', 'carnation', 'clock', 'crown', 'dog', 'key', 'lily', 'mother of god', 'orange', 'pigeon', 'pomegranate', 'rose', 'skull', 'snake']
