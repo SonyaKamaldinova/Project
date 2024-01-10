@@ -1,0 +1,5 @@
+train: /train/images
+val: /valid/images
+
+nc: 36
+names: ['Jesus', 'angel', 'angel with musical instrument', 'apple', 'book', 'butterfly', 'candle', 'carnation', 'cat', 'cherry', 'crown of thorns', 'dog', 'donkey', 'fish', 'grape', 'horse', 'iris', 'key', 'lemon', 'lily', 'lion', 'monkey', 'mother of god', 'orange', 'peacock', 'pear', 'pigeon', 'pomegranate', 'rose', 'sandglass', 'sheep', 'skull', 'snake', 'sunflower', 'swan', 'tulip']
