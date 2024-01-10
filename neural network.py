@@ -1,7 +1,7 @@
 from ultralytics import YOLO
 from PIL import Image
-model = YOLO("/custom_yolov8/weights/best.pt")
-results = model.predict("", show = True) #add path to image
+model = YOLO("/yolov8/weights/best.pt")
+results = model.predict("", show=True, save=True) #add path to image
 result = results[0]
 print(len(result.boxes))
 for box in result.boxes:
