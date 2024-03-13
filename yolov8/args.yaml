@@ -1,10 +1,10 @@
 task: detect
 mode: train
 model: yolov8n.pt
-data: /content/drive/MyDrive/Art.v4i.yolov8/data.yaml
+data: /content/drive/MyDrive/Art.v7i.yolov8/data.yaml
 epochs: 30
 time: null
-patience: 50
+patience: 100
 batch: 16
 imgsz: 640
 save: true
@@ -13,7 +13,7 @@ cache: false
 device: null
 workers: 8
 project: null
-name: train3
+name: train
 exist_ok: false
 pretrained: true
 optimizer: auto
@@ -102,4 +102,4 @@ erasing: 0.4
 crop_fraction: 1.0
 cfg: null
 tracker: botsort.yaml
-save_dir: runs/detect/train3
+save_dir: runs/detect/train
